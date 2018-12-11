@@ -9,7 +9,7 @@ import Footer from '../components/Footer';
 import FloatCart from './../components/floatCart/FloatCart';
 
 import store from '../store';
-import Corner from '../components/github/Corner';
+
 
 
 class App extends Component {
@@ -17,7 +17,7 @@ class App extends Component {
     return (
       <Provider store={store}>
         <div className="App">
-          <Corner />
+         
           <main>
             <Shelf />
           </main>
